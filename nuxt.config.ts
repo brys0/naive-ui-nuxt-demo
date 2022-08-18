@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       include:
         process.env.NODE_ENV === 'development'
           ? ['naive-ui', 'vueuc', 'date-fns-tz/esm/formatInTimeZone']
-          : []
+          : ['naive-ui', 'vueuc', 'date-fns-tz/esm/formatInTimeZone']
     }
   }
 })
